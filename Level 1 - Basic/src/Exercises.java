@@ -9,6 +9,7 @@ public class Exercises {
         Exercises.returntype("Hello World");
 
         System.out.println(Exercises.twoints(5 , 2, true));
+        System.out.println(Exercises.twoints(b));
     }
     public static void print(String input)
 {
@@ -29,8 +30,9 @@ public class Exercises {
 
         } else
             return a * b;
-        if (a||b = 0){
-            System.out.println("a = [" + a + "], b = [" + b + "], c = [" + c + "]");
+        if (a||b == 0)
+        {
+            System.out.println(b);
         }
     }
 
